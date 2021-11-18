@@ -8,7 +8,11 @@ function FormContatc() {
     <>
       <Container>
         <SectionTitle
-          title={<>Qual oferta você quer ver aqui?</>}
+          title={
+            <>
+              Qual oferta você quer <br /> ver aqui?
+            </>
+          }
           description={
             <>
               Preencha o formulário abaixo que
