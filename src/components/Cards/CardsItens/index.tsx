@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/require-default-props */
+/* eslint-disable react/button-has-type */
 import { Container } from './styles';
 
 interface CardsProps {
@@ -7,7 +10,7 @@ interface CardsProps {
   link?: string;
 }
 
-function CardsItens({ img, link, title, description }): CardsProps {
+function CardsItens({ img, link, title, description }: CardsProps) {
   return (
     <>
       <Container>
