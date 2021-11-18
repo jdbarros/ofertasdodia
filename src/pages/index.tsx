@@ -9,6 +9,7 @@ import FormContatc from '../components/FormContact';
 import Footer from '../components/Footer';
 import { getPrismicClient } from '../services/prismic';
 import Cards from '../components/Cards';
+import FormHurb from '../components/FormHurb';
 
 interface ICards {
   slug: string;
@@ -31,6 +32,7 @@ export default function Home({ ofertas }: HomeCards) {
         <HomeHero />
 
         <Cards ofertas={ofertas} />
+        <FormHurb />
         <FormContatc />
       </main>
 
