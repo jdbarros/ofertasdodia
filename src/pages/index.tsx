@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-shadow */
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
 import Header from '../components/Header';

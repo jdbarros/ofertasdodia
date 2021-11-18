@@ -8,7 +8,10 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
-
+  text-align: center;
+  p {
+    font-size: 10px;
+  }
   > div {
     margin: 0 auto;
     max-width: 85rem;
@@ -50,6 +53,9 @@ export const Container = styled.footer`
         svg {
           width: 1.5rem;
           height: 1.5rem;
+        }
+        p {
+          font-size: 5px;
         }
       }
     }

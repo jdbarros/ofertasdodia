@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -18,10 +17,10 @@ export const Container = styled.div`
   h2 {
     color: ${({ theme }) => theme.secondary};
     font-weight: 300;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
     margin: 0 auto;
-  max-width: 85rem;
+    max-width: 85rem;
   }
 
   @media (max-width: 1000px) {
@@ -36,11 +35,11 @@ export const Container = styled.div`
 
   @media (max-width: 500px) {
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
 
     h2 {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 `;

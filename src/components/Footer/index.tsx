@@ -21,7 +21,9 @@ function Footer() {
           Voltar ao topo
         </button>
 
-        <p>© Copyright 2021 - Diego Barros - Divulgações</p>
+        <p>
+          © Copyright 2021 <br /> Diego Barros
+        </p>
         <section>
           <FaInstagramSquare
             onClick={() =>

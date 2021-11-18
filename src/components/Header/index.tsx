@@ -5,7 +5,8 @@ function Header() {
   return (
     <Container>
       <p>
-        Site com links de afiliados - Os preços podem mudar a qualquer momento
+        Site com links de afiliados <br />
+        Os preços podem mudar a qualquer momento!
       </p>
       <ul>
         {/* <NavLink title="Home" path="#" /> */}
