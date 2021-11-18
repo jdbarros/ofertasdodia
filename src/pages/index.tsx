@@ -58,6 +58,6 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       ofertas
     },
-    revalidate: 86400
+    revalidate: 1
   };
 };
