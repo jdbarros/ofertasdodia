@@ -11,6 +11,8 @@ export const Container = styled.div`
   h1 {
     color: ${({ theme }) => theme.primary};
     font-size: 4rem;
+    margin: 0 auto;
+    max-width: 85rem;
   }
 
   h2 {
